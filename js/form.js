@@ -49,6 +49,8 @@ class Form{
             Player.updateCount(0);
             Player.update();
             Game.update(0);
+            var playerInfoRef = database.ref('players');
+            playerInfoRef.remove();
         });
 
     }
