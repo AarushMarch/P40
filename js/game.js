@@ -119,5 +119,7 @@ class Game{
 
     end(){
        console.log("Game Ended");
+       this.update(0)
+       player.updateCount(0)
     }
 }

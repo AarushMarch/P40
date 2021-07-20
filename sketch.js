@@ -29,7 +29,7 @@ function setup() {
   game = new Game();
   game.getState();
   game.start();
-  gfame.update();
+  game.update(1);
 }
 
 function draw() {
